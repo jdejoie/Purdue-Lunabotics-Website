@@ -1,0 +1,278 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu+Condensed&subset=latin,cyrillic,latin-ext);  
+#vlb8overlay{
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:190;
+	width:100%;
+	height:auto;
+	background-color:#aaaaaa;
+}
+
+#vlb8lightbox{
+	position:absolute;
+	top:20px;
+	left:0;
+	width:100%;
+	z-index:200;
+	text-align:center;
+	color:#151410;
+	line-height:0;
+}
+#vlb8lightbox td{
+	vertical-align:top;
+}
+#vlb8lightbox a, #vlb8lightbox a:hover {
+	border-bottom:none;
+	color:#FFFFFF;
+	text-decoration:underline;
+}
+
+#vlb8lightbox a img{ border:none; }
+
+#vlb8outerImageContainer{
+	width:auto;
+	height:auto; /* without this line error in IE8 detected */
+	margin:0 auto;
+	position:relative;
+}
+
+#vlb8lightboxImage{
+	width:100%;
+	height:100%;
+}
+
+#vlb8imageContainerMain{
+	margin:0 auto;
+	overflow:visible;
+	position:relative;
+	font-size:0;/* ie fix - big info bar*/
+}
+
+#vlb8imageContainer{
+	width:150px;
+	height:30px;
+	margin:0 auto;
+	overflow:hidden;
+	background-color:#fff;
+	position:relative;
+	font-size:0;/* ie fix - big info bar*/
+}
+
+#vlb8loading{
+	position:absolute;
+	top:40%;
+	left:0%;
+	height:25%;
+	width:100%;
+	text-align:center;
+	font-size:10px;
+	z-index:1;
+}
+#vlb8loadingLink {
+	display:block;
+	margin:0 auto;
+	padding:0;
+	width:32px;
+	height:32px;
+	background:url(loading.gif) center center no-repeat;
+	text-indent:-9999px;
+}
+#vlb8hoverNav{
+	position:absolute;
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+	z-index:10;
+}
+#vlb8imageContainer>#hoverNav{ left:0;}
+#vlb8prevLinkImg{
+	top:45%;
+	width:35px;
+	height:35px;
+	position:absolute;
+	z-index:20;
+	outline-style:none;
+	display:block;
+	text-indent:-9999px;
+	background-position: 0 0; 
+	}
+#vlb8nextLinkImg{
+	top:45%;
+	width:35px;
+	height:35px;
+	position:absolute;
+	z-index:20;
+	outline-style:none;
+	display:block;
+	text-indent:-9999px;
+	background-position: 100% 0; 
+	background:none;
+	}	
+* html #vlb8prevLinkImg,* html #vlb8nextLinkImg{
+	background-image:url(data:image/gif;base64,AAAA); /* Trick IE into showing hover */
+}
+#vlb8prevLinkImg { left: 0px; }
+#vlb8nextLinkImg { right: 0px; }
+#vlb8imageContainerMain:hover #vlb8prevLinkImg:hover, 
+#vlb8imageContainerMain:hover #vlb8prevLinkImg.hover, 
+#vlb8imageContainerMain:hover #vlb8prevLinkImg:visited:hover { 
+    background-position: 0 100%;  
+}
+#vlb8imageContainerMain:hover #vlb8nextLinkImg:hover, 
+#vlb8imageContainerMain:hover #vlb8nextLinkImg.hover, 
+#vlb8imageContainerMain:hover #vlb8nextLinkImg:visited:hover { 
+    background-position: 100% 100%; 
+} 
+#vlb8imageContainerMain:hover #vlb8prevLinkImg{
+	background-image:url(arrows.png);
+    background-position: 0 0;
+}
+#vlb8imageContainerMain:hover #vlb8nextLinkImg{
+	background-image:url(arrows.png);
+	background-position: 100% 0;
+}
+* html #vlb8prevLinkImg{
+	background-image:url(arrows.png);
+}
+* html #vlb8nextLinkImg{
+	background-image:url(arrows.png);
+} 
+
+#vlb8imageDataContainer{
+	font: 20px 'Ubuntu Condensed', Impact, Charcoal, sans-serif;
+	color: #FFFFFF;
+	width: auto;
+	position: absolute;
+	z-index:21;
+	bottom: 25px;
+	left: 8px;
+	opacity:.6;	
+}
+
+#vlb8imageData{
+	overflow:hidden;
+	background-color:#1b1916;
+	border-radius: 0px 4px 4px 0px;
+	-moz-border-radius:0px 4px 4px 0px;
+	-webkit-border-radius:0px 4px 4px 0px; 	
+	text-align:center; 
+	position: relative;
+	z-index:21;
+	margin-right: 30px;
+}
+#vlb8imageDetails{ width:100%; padding:0;}
+#vlb8caption{ padding: 12px;display:block;text-align:left; }
+#vlb8numberDisplay{ display:none;text-align:right;}
+#vlb8detailsNav{display:none;}
+#vlb8prevLinkDetails, #vlb8nextLinkDetails, #vlb8slideShowControl{display:none;}
+
+#vlb8close{
+	position:relative;
+	width:100%;
+	height:0;
+	z-index:21;
+}
+#vlb8closeLink {
+	position:absolute;
+	top:9px;
+	right:8px;
+	display:block;
+	outline-style:none;
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	width:22px;
+	height:23px;
+	background:url(close.png) no-repeat;
+	background-position: 0 0; 
+	_background-image:none;
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='close.png', sizingMethod='scale');
+}
+#vlb8closeLink:hover {
+	background:url(close.png) no-repeat;
+	background-position: 0 100%;
+	_background-image:none;
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='close.png', sizingMethod='scale');	
+}   
+
+.clearfix:after { content:"."; display:block; height:0; clear:both; visibility:hidden;}
+* html>body .clearfix {display:inline-block; width:100%;}
+
+* html .clearfix {
+	/* Hides from IE-mac \*/
+	height:1%;
+	/* End hide from IE-mac */
+}	
+
+#vlb8outerImageFrame{
+	border:none;
+	height:100%;
+	width:100%;
+	position:absolute;
+}
+
+#vlb8outerImageContainer{
+	overflow:visible;
+}
+#vlb8outerImageContainer td{
+	text-align:center;
+	padding:0;
+}
+
+#vlb8lightboxFrameBody{
+	background-color:#b3b3b3;
+}
+
+#vlb8outerImageContainer td, #vlb8outerImageContainer tr{
+	font-size:0;
+	border:0 none;
+}
+
+#vlb8outerImageContainer td.tl, #vlb8outerImageContainer td.br{
+	height:9px;
+	width:8px;
+}
+.vlb{display:none;}
+#vlb8outerImageContainer td.tl{
+	margin-top: 1px;
+	background-image:url(borderTopLeft.png);
+	_background-image:none;
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='borderTopLeft.png', sizingMethod='scale');
+}
+#vlb8outerImageContainer td.tc{
+	background-image:url(borderTopCenter.png);
+	_background-image:none;
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='borderTopCenter.png', sizingMethod='scale');
+}
+#vlb8outerImageContainer td.tr{
+	background-image:url(borderTopRight.png);
+	_background-image:none;
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='borderTopRight.png', sizingMethod='scale');
+}
+#vlb8outerImageContainer td.ml{
+	background-image:url(borderMiddleLeft.png);
+	_background-image:none;
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='borderMiddleLeft.png', sizingMethod='scale');
+}
+#vlb8outerImageContainer td.mr{
+	background-image:url(borderMiddleRight.png);
+	_background-image:none;
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='borderMiddleRight.png', sizingMethod='scale');
+}
+#vlb8outerImageContainer td.bl{
+	background-image:url(borderBottomLeft.png);
+	_background-image:none;
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='borderBottomLeft.png', sizingMethod='scale');
+}
+#vlb8outerImageContainer td.bc{
+	background-image:url(borderBottomCenter.png);
+	_background-image:none;
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='borderBottomCenter.png', sizingMethod='scale');
+}
+#vlb8outerImageContainer td.br{
+	background-image:url(borderBottomRight.png);
+	_background-image:none;
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='borderBottomRight.png', sizingMethod='scale');
+} 

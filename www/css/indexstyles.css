@@ -1,0 +1,198 @@
+p {
+color: Cornsilk;
+font-size: 120%;
+font-family: Tahoma, Geneva, sans-serif;
+}
+
+.team-back p {
+color: White;
+font-size: 120%;
+font-family: Tahoma, Geneva, sans-serif;
+}
+
+.wow{
+visibility: hidden;}
+
+.btn-primary {
+color: white;
+  background-color: #337AB7;
+  border-color: #B0CCE5;}
+  
+h1{
+position: relative;
+padding: 70px;
+margin: 0px;
+color: White;
+font-size: 300%;
+background-color: #337AB7;
+font-family: Tahoma, Geneva, sans-serif;}
+
+.title-small h2 {
+width: 100%;
+margin-top: 40px;
+color: #6DB2EC;
+font-size: 250%;
+position: relative;
+padding: 10px;
+font-family: Tahoma, Geneva, sans-serif;}
+
+.title-small h3 {
+width: 100%;
+font-size: 75%;
+position: relative;
+padding: 0px;
+color: white;
+font-family: Tahoma, Geneva, sans-serif;}
+
+.title-medium h2 {
+width: 100%;
+margin-top: 70px;
+color: #6DB2EC;
+font-size: 400%;
+position: relative;
+padding: 20px;
+font-family: Tahoma, Geneva, sans-serif;}
+
+.title-medium h3 {
+width: 100%;
+font-size: 100%;
+position: relative;
+padding: 0px;
+color: white;
+font-family: Tahoma, Geneva, sans-serif;}
+
+.title-large h2 {
+width: 100%;
+margin-top: 90px;
+color: #6DB2EC;
+font-size: 600%;
+position: relative;
+padding: 20px;
+font-family: Tahoma, Geneva, sans-serif;}
+
+.title-large h3 {
+width: 100%;
+font-size: 150%;
+position: relative;
+padding: 0px;
+color: white;
+font-family: Tahoma, Geneva, sans-serif;}
+
+ h3 {
+width: 100%;
+font-size: 150%;
+position: relative;
+padding: 0px;
+color: white;
+font-family: Tahoma, Geneva, sans-serif;}
+
+h4 {
+font-size: 220%;
+color: white;
+padding: 5px;
+font-family: Tahoma, Geneva, sans-serif;}
+
+h5 {
+color: chartreuse;
+font-size: 100%;
+position: relative;}
+
+.arrows p{
+font-size: 185%;}
+
+.arrows a {
+	margin: 15px;}
+
+button {
+	color: #6DB2EC;
+	border-color:  #6DB2EC;
+	padding: 10px;
+	font-size: 125%;
+	margin-top: 30px;
+	background-color: rgba(0, 0, 0, 0);}
+
+button:hover {
+	color: #BBD1E4;
+	border-color:  #BBD1E4;}
+
+.team-back h4 {
+font-size: 220%;
+color: white;
+padding: 5px;
+font-family: Tahoma, Geneva, sans-serif;}
+
+.mainwrapper {
+display: inline-block;
+  margin-top: 25px;
+  position: relative}
+
+.mainwrapper img {
+display: block;
+max-width: 100%;
+width: 100%;
+background-size: cover;
+-webkit-background-size: cover;
+-moz-background-size: cover;}
+
+.mainwrapper .mainoverlay {
+position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  color:white;}
+  
+.intro-back {
+background-color: black;}
+  
+ .comp-back {
+background: url("../images/index/comp_background.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;}
+
+ .team-back {
+background: url("../images/index/team_background.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;}
+
+ .joinus-back {
+background: url("../images/index/joinus_background.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;}
+
+ .command-back {
+ background: url("../images/index/command-back.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;}
+	
+.columnpadder {
+margin: 10px;
+padding: 10px;}
+
+.carouselsizer{
+ width: 700px;
+ height: 425px;}
+ 
+ .list-group-item {
+ border: 1px solid black;
+ font-size: 125%;
+ width: 75%;
+ margin-top: 50px;}
+ 
+ .panel-heading {
+ border: 1px solid black;}
+ 
+ .joinus-back .carouselsizer{
+ width: 500px;
+ height: 300px;}
+	
+.cartoons {
+width: auto;
+height: 200px;}
+
+#myCarousel p{
+background-color: rgba(0, 50, 100, .75)}
