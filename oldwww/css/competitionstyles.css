@@ -1,0 +1,160 @@
+h1{
+position: relative;
+padding: 70px;
+margin: -5px;
+margin-left: 0px;
+margin-right: 0px;
+color: White;
+font-size: 300%;
+background-color: #337AB7;
+font-family: Tahoma, Geneva, sans-serif;}
+
+.wow{
+visibility: hidden;}
+
+h2 {
+font-size: 330%;
+color: white;
+padding-top: 10px;
+padding-bottom: 10px;
+font-family: Tahoma, Geneva, sans-serif;}
+
+h3 {
+font-size: 140%;
+color: Cornsilk;
+padding-top: 10px;
+padding-bottom: 10px;
+font-family: Tahoma, Geneva, sans-serif;}
+
+h4 {
+font-size: 120%;
+color: white;
+padding: 5px;
+font-family: Tahoma, Geneva, sans-serif;}
+
+
+.whatisrmc-image {
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;}
+
+.whatisrmc-image .list-group {
+	font-size: 130%;
+	color: black;
+	font-family: Tahoma, Geneva, sans-serif;
+    border-radius: 25px;
+	border: 0px solid #ddd;
+    padding: 20px;
+	margin-top: 150px;
+    width: 300px;
+    height: 240px;}
+
+.whatisrmc-text {
+    border-radius: 25px;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;
+	top: 200px;
+    background-color: rgba(0, 200, 0, 0.3);}
+
+p {
+font-size: 125%;
+font-family: Tahoma, Geneva, sans-serif;}
+
+ .nasarmc-back {
+ background: url("../images/competition/rockets.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;}
+
+ .thefuture-back {
+ background: url("../images/competition/thefuture-back.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;}
+
+ .thefuture-back h3{
+ 	color: Cornsilk;
+	font-size: 350%;
+	font-family: Tahoma, Geneva, sans-serif;}
+
+.col-md-12-background{
+  position: relative;
+  min-height: 1px;}
+
+.columnpadder {
+margin: 10px;
+padding: 10px;}
+
+.mainwrapper {
+display: inline-block;
+  position: relative;}
+
+.mainwrapper img {
+display: block;
+width: 99.99%;}
+
+.mainwrapper .mainoverlay {
+position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background-color: rgba(0,0,0,0.25);}
+  
+.sponsorsbanner {
+padding-top: 10px;
+padding-bottom: 50px;
+height: 200px;
+background-color: rgba(100,100,100,1);
+}
+
+.sponsorstext {
+height: 70px;
+background-color: rgba(100,100,100,1);
+}
+
+.sponsorsbanner img{
+width: 200px;
+height: auto;
+}
+
+.sponsorstext h3 {
+font-size: 120%;
+text-decoration: bold;
+color: White;
+margin: 0px;
+font-family: Tahoma, Geneva, sans-serif;}
+
+.manythanks  h4{
+border-top: 1px solid black;
+border-bottom: 1px solid black;
+height: 40px;
+padding-top: 10px;
+padding-bottom: 10px;
+text-align: center;
+margin: 0px;
+background-color: rgba(80,80,80,1);}
+
+.btn-primary {
+color: #5133DD;
+  background-color: #CCDBE8;
+  border-color: #B0CCE5;}
+
+.list-group {
+padding-top: 30px;
+font-size: 130%;} 
+ 
+.list-group-item {
+ border: 1px solid black;}
+ 
+ .panel-body {
+ text-align: justify;
+ font-size: 130%;}
+ 
+ .panel-group {
+	 width: 80%;}
+ 
+ .panel-heading {
+ border: 1px solid black;
+  font-size: 130%;}
